@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="getFortuneButton">Get your fortune</button>
+    <p>What is one of your goals for for 2024?</p>
+    <input id="textBox" type="text">
+    <div>
+      <br>
+    <label for="">Choose another goal</label>
+    </div>
+    <select id="goals" name="goals">
+      <option value="none">---</option>
+      <option value="book">Read a book</option>
+      <option value="exercise">Start a excerise plan</option>
+      <option value="travel">Plan a vacation</option>
+      <option value="renovations">Fix up your house</option>
+      <option value="selfImpovment">Self improvment</option>
+      <option value="financialPlanning">Financial planning</option>
+    </select> 
+    <p>Its time to add something to keep yourself motivated!</p>
+    <form>
+      <input
+        type="text"
+        id="title"
+        placeholder="What will motivate you?"/>
+      <input
+        type="text"
+        id="img"
+        placeholder="Past a URL"/>
+        <button>Submit</button>
+    </form>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
